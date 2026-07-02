@@ -1,1 +1,2 @@
-# apex.4
+A responsive personal portfolio website developed using HTML, CSS and JavaScript. It contains Home, About, Skills, Projects and Contact sections.
+Welcome to my portfolio! I'm a passionate developer dedicated to building modern, user-friendly, and efficient digital solutions. This website showcases my projects, technical skills, certifications, and journey in software development. Every project reflects my commitment to continuous learning, clean code, and solving real-world problems. Explore my work and let's create something amazing together.
