@@ -1,0 +1,314 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background-color:rgb(165,167,164);
+}
+
+.heading{
+    font-size:35px;
+    color:white;
+    margin-bottom:25px;
+    text-align:center;
+}
+
+
+/* Navigation */
+
+#nav1{
+    padding:15px;
+    margin:0;
+    background-color:blue;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+#nav1 h1{
+    color:gold;
+}
+
+#nav1 a{
+    text-decoration:none;
+}
+
+#nav1 button{
+    padding:8px 15px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-weight:bold;
+    transition:.3s;
+}
+
+#nav1 button:hover{
+    background:gold;
+    color:black;
+    transform:scale(1.05);
+}
+
+/* Home */
+
+.home{
+    background:linear-gradient(to right,#0f4c81,#2193b0);
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+.home h1{
+    font-size:55px;
+    margin:15px;
+}
+
+.home h2{
+    font-size:30px;
+}
+
+.home h3{
+    margin:15px;
+}
+
+.home p{
+    font-size:20px;
+    margin:20px;
+}
+
+.home button{
+    padding:10px 20px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+.home button:hover{
+    background:gold;
+}
+
+/* About */
+
+#img1{
+    padding:20px;
+    margin:20px;
+    border-radius:50%;
+    border:4px solid white;
+}
+
+#id1{
+    font-size:20px;
+    line-height:35px;
+}
+
+/* Common Sections */
+
+.div1,
+.div2,
+.div3,
+.div4{
+    padding:30px;
+    text-align:center;
+    margin:60px auto;
+    width:80%;
+    border-radius:25px;
+    box-shadow:0 0 15px gray;
+}
+
+/* Individual Sections */
+
+.div1{
+    background-color:green;
+}
+
+.div2{
+    background-color:red;
+}
+
+.div3{
+    background-color:grey;
+}
+
+.div4{
+    background-color:blue;
+}
+
+/* Skills */
+
+.div2 ul{
+    list-style:none;
+    margin-top:20px;
+}
+
+.div2 li{
+    background:white;
+    margin:10px auto;
+    width:250px;
+    padding:10px;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.div2 li:hover{
+    background:blue;
+    color:white;
+    transform:translateY(-5px);
+}
+
+/* Projects */
+
+.project{
+    background:#f2f2f2;
+    padding:20px;
+    margin:20px;
+    border-radius:10px;
+    transition:.3s;
+}
+
+.project:hover{
+    background:#d9ecff;
+    transform:scale(1.02);
+}
+
+.project h3{
+    color:blue;
+    margin-bottom:10px;
+}
+
+.project p{
+    margin-bottom:15px;
+    line-height:28px;
+}
+
+.project button{
+    padding:10px 18px;
+    border:none;
+    border-radius:5px;
+    background:blue;
+    color:white;
+    cursor:pointer;
+}
+
+.project button:hover{
+    background:green;
+}
+
+/* Contact */
+
+form{
+    margin-top:20px;
+}
+
+label{
+    font-weight:bold;
+}
+
+input,
+select{
+    width:70%;
+    padding:10px;
+    margin:10px;
+    border-radius:5px;
+    border:1px solid gray;
+}
+
+input[type="submit"]{
+    background:green;
+    color:white;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover{
+    background:darkgreen;
+}
+
+input[type="reset"]{
+    background:red;
+    color:white;
+    cursor:pointer;
+}
+
+input[type="reset"]:hover{
+    background:darkred;
+}
+
+/* Dark Mode */
+
+.dark{
+    background:#222;
+    color:white;
+}
+
+.dark .div1,
+.dark .div2,
+.dark .div3,
+.dark .div4{
+    background:#444;
+    color:white;
+}
+
+.dark .project{
+    background:#555;
+}
+
+.dark #nav1{
+    background:black;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+#nav1{
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.home h1{
+    font-size:40px;
+}
+
+.home h2{
+    font-size:24px;
+}
+
+.home p{
+    font-size:18px;
+}
+
+.div1,
+.div2,
+.div3,
+.div4{
+    width:95%;
+    padding:20px;
+}
+
+#img1,
+.div2 img,
+.div3 img{
+    width:180px;
+    height:180px;
+    margin:10px;
+}
+
+.div2 li{
+    width:90%;
+}
+
+input,
+select{
+    width:90%;
+}
+
+}

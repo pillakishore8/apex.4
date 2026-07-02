@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishore Portfolio</title>
+
+    <link rel="stylesheet" href="Task4.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+
+    <nav id="nav1">
+
+        <h1>Welcome</h1>
+
+        <a href="#home"><button>Home</button></a>
+        <a href="#div1"><button>About Me</button></a>
+        <a href="#div2"><button>Skills</button></a>
+        <a href="#projects"><button>Projects</button></a>
+        <a href="#div3"><button>Contact</button></a>
+
+        <button onclick="darkMode()">🌙</button>
+
+    </nav>
+
+
+    <!-- Home -->
+
+    <section class="home" id="home">
+
+        <h2>Hello!</h2>
+
+        <h1>I'm Kishore</h1>
+
+        <h3>Computer Science Engineering Student</h3>
+
+        <p>
+            Passionate about Coding and Problem Solving.
+        </p>
+
+        <button onclick="scrollAbout()">Know More</button>
+
+    </section>
+
+
+    <!-- About -->
+
+    <div class="div1" id="div1">
+
+        <h2 class="heading">About Me</h2>
+
+        <img src="C:\Users\Kishore\Downloads\WhatsApp Image 2026-07-02 at 7.37.43 PM.jpeg" id="img1" height="300" width="250">
+
+        <p id="id1">
+
+            Good morning everyone.
+
+            My name is Kishore and I am a
+            <b>Third-Year Engineering Student specializing in
+            Computer Science at Raghu Engineering College.</b>
+
+            I enjoy coding, solving algorithmic problems,
+            participating in technical events and learning
+            Full Stack Web Development.
+
+            My goal is to become a Software Developer
+            and contribute to innovative projects.
+
+        </p>
+
+    </div>
+
+
+    <!-- Skills -->
+
+    <div class="div2" id="div2">
+
+        <h2 class="heading">Skills</h2>
+
+        <img src="C:\Users\Kishore\OneDrive\Pictures\programming_tips.jpg" height="300" width="250">
+
+        <ul>
+
+            <li>C Programming</li>
+
+            <li>Python</li>
+
+            <li>Web Development</li>
+
+            <li>DBMS</li>
+
+        </ul>
+
+    </div>
+
+
+    <!-- Projects -->
+
+    <div class="div4" id="projects">
+
+    <h2 class="heading">My Projects</h2>
+
+    <div class="project">
+
+        <h3>1. Personal Portfolio Website</h3>
+
+        <p>
+            A responsive personal portfolio website developed using
+            HTML, CSS and JavaScript. It contains Home, About, Skills,
+            Projects and Contact sections.
+        </p>
+
+        <a href="https://github.com/Mohan-Rohit/Apex_Task4" target="_blank">
+            <button>View on GitHub</button>
+        </a>
+
+    </div>
+
+
+    </div>
+
+    <!-- Contact -->
+
+    <div class="div3" id="div3">
+
+        <h2 class="heading">Contact Me</h2>
+
+        <img src="C:\Users\Kishore\OneDrive\Pictures\contact-me-blackboard-white-text-260nw-2588499721.webp" height="300" width="250">
+
+        <form id="contactForm">
+
+            <label>Name:</label>
+
+            <input
+                type="text"
+                id="name"
+                required>
+
+            <br>
+
+            <label>Email:</label>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="username@gmail.com"
+                required>
+
+            <br>
+
+            <label>Phone:</label>
+
+            <input
+                type="tel"
+                id="phone"
+                required>
+
+            <br>
+
+            <label>Age</label>
+
+            <select id="age">
+
+                <option>Choose</option>
+
+                <option>Under 18</option>
+
+                <option>Above 18</option>
+
+            </select>
+
+            <br><br>
+
+            <input type="submit" value="Submit">
+
+            <input type="reset" value="Reset">
+
+        </form>
+
+    </div>
+
+    <script src="Task4.js"></script>
+
+</body>
+</html>
